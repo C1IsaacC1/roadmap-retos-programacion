@@ -1,0 +1,43 @@
+#00 SINTAXIS, VARIABLES, TIPOS DE DATOS Y HOLA MUNDO
+
+# https://www.python.org/
+
+# Esto seria un comentario en linea o tambien en varias lineas
+
+
+
+"""
+Esto tambien es un comentario
+en varias lienas de de codigos
+usando comillas dobles
+
+"""
+
+
+'''
+Tambien puedes usar las comillas simples
+se debe de poner 3 a la izquierda y 3 a la derecha
+
+'''
+
+my_v = "Mi variable"
+my_v = "Nuevo valor de mi variable"
+
+CONSTANT = "Mi constante" # por convención
+
+int = 1 # int se usa para representar números enteros en Python.
+float  = 1.30 # float se usa para representar números decimales en Python.
+my_bool  = True
+my_bool =  False 
+string = "Mi Nueva cadena de texto" # Esto deja más claro que str es un tipo de dato específico para manejar texto en Python.
+other_string = "Mi otra cadena de texto nueva"
+
+
+
+print("¡Hola, Isaac!") # se usa para mostrar información en la consola
+
+print(type(int))
+print(type(float))
+print(type(bool))
+print(type(string))
+print(type(other_string))
